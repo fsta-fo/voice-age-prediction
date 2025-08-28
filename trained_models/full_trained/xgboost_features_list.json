@@ -1,0 +1,1 @@
+["f0_median", "f0_mean", "f0_min", "f0_max", "jitter_local", "f0_range", "f0_std", "hnr", "shimmer_local", "formant_1", "formant_2", "formant_4", "spectral_contrast_mean", "mfcc_1_mean", "mfcc_2_mean", "mfcc_3_mean", "mfcc_4_mean", "mfcc_5_mean", "mfcc_8_mean", "mfcc_13_mean", "spectral_centroid_mean"]
