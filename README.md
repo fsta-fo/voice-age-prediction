@@ -32,6 +32,7 @@ When using CSV or TSV files, you may need to adjust the delimiter in the pd.read
 2. preprocessing_wav.py
 	- Applies a series of preprocessing steps to the WAV files, including normalization, voice activity detection (VAD), and filtering.
 	- Creates new datase: dataset/processed_metadata.tsv and new directory processed_files containing the processed WAVs.
+  !mages/Silence.png
 
 3. features_extraction.py
 	- Extracts traditional audio features (like F0, jitter, shimmer, MFCCs) from the processed WAV files
@@ -53,6 +54,7 @@ When using CSV or TSV files, you may need to adjust the delimiter in the pd.read
 7. random_forest_train.py
 	- Trains a Random forest model on all age classes using the traditional audio features.
 	- Creates trained_models/random_forest_age_model.joblib, trained_models/scaler.joblib and trained_models/label_encoder.joblib model files
+ !mages/rfm.png
 
 8. xgboost_5class_train.py
 	- Trains an XGBoost model on 5 merged age classes using traditional audio features.
@@ -61,10 +63,12 @@ When using CSV or TSV files, you may need to adjust the delimiter in the pd.read
 9. cnn_5class_train.py
 	- Trains a Convolutional Neural Network (CNN) on 5 merged age classes using the generated Mel spectrograms.
 	- Creates trained_models/cnn_model.keras and trained_models/cnn_label.joblib model files
+   !mages/cnn7.png
 
 10. xgboost_5class_train_vectors.py
 	- Trains an XGBoost model on 5 merged age classes using the extracted x-vectors.
 	- Creates trained_models/xgboost_xvector_model.joblib, trained_models/xgboost_xvectors_saler.joblib and trained_models/xgboost_classes.joblib model files
+	!mages/XGVEc.png
 
 11. standalone_prediction.py
 	- A standalone script that uses the best-performing trained model to predict the age group for a single input MP3 file (max 10 seconds long). It performs the entire preprocessing and feature extraction pipeline internally.
