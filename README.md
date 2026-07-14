@@ -65,13 +65,13 @@ When using CSV or TSV files, you may need to adjust the delimiter in the pd.read
 9. cnn_5class_train.py
 	- Trains a Convolutional Neural Network (CNN) on 5 merged age classes using the generated Mel spectrograms.
 	- Creates trained_models/cnn_model.keras and trained_models/cnn_label.joblib model files
-   <img width="751" height="571" alt="cnn7" src="https://github.com/user-attachments/assets/048d1dc9-449f-4762-810c-9a37f45f8288" />
+   <img width="571" height="434" alt="cnn7" src="https://github.com/user-attachments/assets/048d1dc9-449f-4762-810c-9a37f45f8288" />
 
 
 10. xgboost_5class_train_vectors.py
 	- Trains an XGBoost model on 5 merged age classes using the extracted x-vectors.
 	- Creates trained_models/xgboost_xvector_model.joblib, trained_models/xgboost_xvectors_saler.joblib and trained_models/xgboost_classes.joblib model files
-	<img width="787" height="590" alt="XGVEc" src="https://github.com/user-attachments/assets/3021fd4a-ff95-446e-907b-ac206685fc48" />
+	<img width="572" height="429" alt="XGVEc" src="https://github.com/user-attachments/assets/3021fd4a-ff95-446e-907b-ac206685fc48" />
 
 
 11. standalone_prediction.py
