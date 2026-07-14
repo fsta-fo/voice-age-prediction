@@ -55,7 +55,7 @@ When using CSV or TSV files, you may need to adjust the delimiter in the pd.read
 7. random_forest_train.py
 	- Trains a Random forest model on all age classes using the traditional audio features.
 	- Creates trained_models/random_forest_age_model.joblib, trained_models/scaler.joblib and trained_models/label_encoder.joblib model files
- <img width="817" height="683" alt="rfm" src="https://github.com/user-attachments/assets/dd898cd5-2958-4955-98d6-0e84dc186c04" />
+ <img width="572" height="478" alt="rfm" src="https://github.com/user-attachments/assets/dd898cd5-2958-4955-98d6-0e84dc186c04" />
 
 
 8. xgboost_5class_train.py
